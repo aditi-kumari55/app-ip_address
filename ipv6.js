@@ -3,7 +3,7 @@
  * @param {string} ipv4 - An IPv4 address in dotted-quad format.
  * @return {*} (ipv6Address) - An IPv6 address string or null if a run-time problem was detected.
  */
-
+ 
 function getIpv4MappedIpv6Address(ipv4) {
 
   // Initialize return argument
@@ -47,4 +47,5 @@ function getIpv4MappedIpv6Address(ipv4) {
   }
   return ipv6Address;
 }
+
 module.exports.getIpv4MappedIpv6Address = getIpv4MappedIpv6Address;
