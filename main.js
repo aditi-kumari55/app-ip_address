@@ -20,6 +20,7 @@ const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv6.js'));
   The ip-cidr package exports a class.
   Assign the class definition to variable IPCIDR.
 */
+
 const IPCIDR = require('ip-cidr');
 
 
